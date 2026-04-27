@@ -8,7 +8,7 @@ public class ejericicio1 {
        int[] numeros = new int[n];
        int suma = 0;
        for (int i = 0; i < n; i++) {
-           System.out.print("ingrese un numero  ");
+           System.out.print("ingrese un numero:  ");
            numeros[i] = teclado.nextInt();
        }
        for (int i = 0; i < n; i++) {
