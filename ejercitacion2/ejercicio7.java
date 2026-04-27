@@ -8,10 +8,10 @@ public class ejercicio7 {
       System.out.println("1: Piedra");
       System.out.println("2: Papel");
       System.out.println("3: Tijera");
-      System.out.print("elige una de las opciones: ");
+      System.out.print("elige una de las opciones");
       int us = scanner.nextInt();
       int compu = random.nextInt(3) + 1;
-      System.out.println("La pc eleigio: " + compu);
+      System.out.println("la pc eleigio " + compu);
       if (us == compu) {
           System.out.println("Empate");
       } else if (
@@ -25,6 +25,3 @@ public class ejercicio7 {
       } else {
           System.out.println("opcion invalida,gg");
       }
-      scanner.close();
-  }
-}
