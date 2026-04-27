@@ -13,7 +13,7 @@ public class ejercicio10 {
        }
  
        progreso[0] = palabra.charAt(0);
-       System.out.println("Adivina la palabra");
+       System.out.println("adivina la palabra");
        boolean completo = false;
        while (!completo) {
       
