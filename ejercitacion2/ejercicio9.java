@@ -27,9 +27,9 @@ public class ejercicio9{
            }
        }
        if (correcto) {
-           System.out.println("ganaste");
+           System.out.println("ganaste, gg");
        } else {
-           System.out.println("perdiste");
+           System.out.println("tenes alzheimer");
            System.out.print("los numeros eran: ");
            for (int i = 0; i < numeros; i++) {
                System.out.print(n[i] + " ");
