@@ -21,7 +21,7 @@ public class ejercicio10 {
                System.out.print(progreso[i] + " ");
            }
            System.out.println();
-           System.out.print("ingresa una letra: ");
+           System.out.print("ingresa una letra ");
            char letra = teclado.next().toLowerCase().charAt(0);
            boolean acierto = false;
            for (int i = 0; i < palabra.length(); i++) {
