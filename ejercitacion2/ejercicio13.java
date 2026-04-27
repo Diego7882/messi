@@ -1,11 +1,11 @@
 package ejericitacion2;
 public class ejercicio13 {
    public static void main(String[] args) {
-       String[] nombres = {"Alexis", "Luciano", "Nicolás", "Leandro"};
+       String[] nombres = {"Alexis", "Luciano", "Nicolas", "Leandro"};
        double[] notas = {9, 4, 8, 10};
        for (int i = 0; i < 4; i++) {
        	if (notas[i] >= 6) {
-               System.out.println(nombres[i] + " Aprobado");
+               System.out.println(nombres[i] + " Aprobado,safaste");
            } else {
                System.out.println(nombres[i] + " Reprobado");
            }
