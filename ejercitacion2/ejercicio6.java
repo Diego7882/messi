@@ -9,7 +9,7 @@ public class ejercicio6 {
       int inte = 0;
       System.out.println("adivina el numero entre (1 y 100):");
       while (inte!= numerosec) {
-          System.out.print("ingresa tu numero");
+          System.out.print("ingresa tu numero: ");
           inte = scanner.nextInt();
           if (inte < numerosec) {
               System.out.println("El numero es mayor");
