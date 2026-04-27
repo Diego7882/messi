@@ -5,7 +5,7 @@ public class ejercicio13 {
        double[] notas = {9, 4, 8, 10};
        for (int i = 0; i < 4; i++) {
        	if (notas[i] >= 6) {
-               System.out.println(nombres[i] + " Aprobado,safaste");
+               System.out.println(nombres[i] + " Aprobado safaste");
            } else {
                System.out.println(nombres[i] + " Reprobado");
            }
