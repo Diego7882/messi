@@ -12,11 +12,11 @@ public class ejercicio6 {
           System.out.print("ingresa tu numero: ");
           inte = scanner.nextInt();
           if (inte < numerosec) {
-              System.out.println("El número es mayor");
+              System.out.println("El numero es mayor");
           } else if (inte > numerosec) {
-              System.out.println("El número es menor");
+              System.out.println("El numero es menor");
           } else {
-              System.out.println("bien ahi, adivinaste el numero ");
+              System.out.println("bien ahi, adivinaste el numero,gg ");
           }
       }
       scanner.close();
