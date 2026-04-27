@@ -9,7 +9,7 @@ public class ejercicio9{
        for (int i = 0; i < numeros; i++) {
            n[i] = random.nextInt(9) + 1;
        }
-       System.out.print("memoriza los siguientes numeros ");
+       System.out.print("memoriza los siguientes numeros: ");
        for (int i = 0; i < numeros; i++) {
            System.out.print(n[i] + " ");
        }
