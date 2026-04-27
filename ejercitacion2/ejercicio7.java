@@ -23,7 +23,7 @@ public class ejercicio7 {
       } else if (us >= 1 && us <= 3) {
           System.out.println("perdiste");
       } else {
-          System.out.println("opcion invalida");
+          System.out.println("opcion invalida,gg");
       }
       scanner.close();
   }
